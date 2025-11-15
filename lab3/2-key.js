@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 
 const generateKey = (length, possible) => {
@@ -12,4 +13,20 @@ const generateKey = (length, possible) => {
 
 const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
 const key = generateKey(16, characters);
+=======
+'use strict';
+
+const generateKey = (length, possible) => {
+  let result = '';
+  for (let i = 0; i < length; i++) {
+
+    const randomIndex = Math.floor(Math.random() * possible.length);
+    result += possible[randomIndex];
+  }
+  return result;
+};
+
+const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+const key = generateKey(16, characters);
+>>>>>>> 1bc46ee23d14e50330bc3229338c863ef49e5242
 console.log(key); 
