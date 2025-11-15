@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 'use strict';
 
 const random = (min, max) => {
@@ -10,7 +10,7 @@ const random = (min, max) => {
 };
 
 console.log(random(5, 10)); 
-=======
+
 'use strict';
 
 const random = (min, max) => {
@@ -22,5 +22,5 @@ const random = (min, max) => {
 };
 
 console.log(random(5, 10)); 
->>>>>>> 1bc46ee23d14e50330bc3229338c863ef49e5242
+
 console.log(random(7));     

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 'use strict';
 
 const phonebook = [
@@ -21,7 +21,6 @@ console.log(findPhoneByName('Marcus Aurelius'));
 console.log(findPhoneByName('Noname')); 
 
 
-=======
 'use strict';
 
 const phonebook = [
@@ -44,4 +43,4 @@ console.log(findPhoneByName('Marcus Aurelius'));
 console.log(findPhoneByName('Noname')); 
 
 
->>>>>>> 1bc46ee23d14e50330bc3229338c863ef49e5242
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 'use strict';
 
 const ipToInt = (ip = '127.0.0.1') => {
@@ -14,7 +14,7 @@ console.log(ipToInt('127.0.0.1'));
 console.log(ipToInt('10.0.0.1'));        
 console.log(ipToInt('192.168.1.10'));    
 console.log(ipToInt('0.0.0.0'));         
-=======
+
 'use strict';
 
 const ipToInt = (ip = '127.0.0.1') => {
@@ -30,5 +30,4 @@ console.log(ipToInt('127.0.0.1'));
 console.log(ipToInt('10.0.0.1'));        
 console.log(ipToInt('192.168.1.10'));    
 console.log(ipToInt('0.0.0.0'));         
->>>>>>> 1bc46ee23d14e50330bc3229338c863ef49e5242
 console.log(ipToInt('8.8.8.8'));         

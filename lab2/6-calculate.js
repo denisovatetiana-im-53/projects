@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 'use strict';
 
 const square = (x) => x * x;
@@ -18,7 +18,7 @@ const calculate = () => {
   return result;
 };
 
-=======
+
 'use strict';
 
 const square = (x) => x * x;
@@ -38,5 +38,5 @@ const calculate = () => {
   return result;
 };
 
->>>>>>> 1bc46ee23d14e50330bc3229338c863ef49e5242
+
 console.log(calculate());
